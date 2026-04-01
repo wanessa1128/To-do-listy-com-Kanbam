@@ -1,0 +1,65 @@
+/*Estilo geral da página*/
+body{
+    font-family: Verdana;
+    background-color: rgb(166, 174, 189);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/*Caixa principal*/
+.conteiner{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.tituloo{
+    justify-content: center;
+    display: flex;
+}
+
+.conteiner2{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+/*Cada item da lista*/
+li{
+   margin-top: 10px; 
+}
+
+/*Classe aplicada quando a tarefa é concluida*/
+.concluida{
+   text-decoration: line-through;
+   color: rgb(141, 138, 138); 
+}
+
+#listadeTarefas button {
+    margin-left: 10px;
+}
+
+.kanban {
+  display: flex;
+  gap: 20px;
+}
+
+.coluna {
+  flex: 1;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.coluna ul {
+  min-height: 200px;
+  padding: 0;
+  list-style: none;
+}
+
+.coluna li {
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: grab;
+  border-radius: 5px;
+}
